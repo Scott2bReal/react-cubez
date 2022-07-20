@@ -13,4 +13,4 @@ yarn
 yarn dev
 ```
 
-Check out that `localhost` port in your browser for some sweet cubez
+Check out that `localhost` port in your browser for some sweet cubez. Try clicking them!
