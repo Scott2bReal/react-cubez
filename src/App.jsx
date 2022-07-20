@@ -14,7 +14,7 @@ function randomColor(color) {
   return new_color
 }
 
-function Box({position, speed}) {
+function Cube({position, speed}) {
   const meshRef = useRef()
   useFrame(() => (
     meshRef.current.rotation.x += speed,
@@ -38,8 +38,8 @@ function App() {
         <Canvas>
           <ambientLight />
           <pointLight position={[10, 10, 10]} />
-          <Box position={[1, 1, 1]} speed={0.01}/>
-          <Box position={[0.5, -1, 2]} speed={0.01}/>
+          <Cube position={[1, 1, 1]} speed={0.01}/>
+          <Cube position={[0.5, -1, 2]} speed={0.01}/>
         </Canvas>
       </div>
     </div>
